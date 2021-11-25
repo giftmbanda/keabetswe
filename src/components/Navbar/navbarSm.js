@@ -42,9 +42,6 @@ function NavbarSm() {
                 <a href="#skills">Skills</a>
               </li>
               <li className="dropdown-item">
-                <a href="#projects">Projects</a>
-              </li>
-              <li className="dropdown-item">
                 <a href="#contact">Contact</a>
               </li>
             </ul>

@@ -1,18 +1,14 @@
 {
-  "firstname": "First  Name",
-  "lastname": "Last Name",
+  "firstname": "Keabetswe",
+  "lastname": "Mokwena",
   "about": {
-    "desc": "Hey there, I am a Front-end developer having extensive knowledge of developing user friendly UIs with cutting edge technologies.",
-    "whoIam": "Fullstack developer",
+    "desc": "I am an upcoming NDIP IT graduate offering a strong foundation in software development and programming principles across multiple platforms, targeting an internship or entry level position in Software Development.",
+    "whoIam": "Software Developer",
     "resumelink": "#"
   },
   "social_links": {
-    "github": "https://github.com/",
-    "facebook": "https://www.facebook.com/",
-    "instagram": "https://www.instagram.com/",
-    "twitter": "https://twitter.com/",
-    "linkedin": "https://www.linkedin.com/",
-    "youtube": "https://www.youtube.com/"
+    "github": "https://github.com/KeabetsweDiana",
+    "linkedin": "https://linkedin.com/in/keabetswe-mokwena-794bb81b6"
   },
   "email": "abc@gmail.com",
   "address": "India",
@@ -61,28 +57,28 @@
     }
   ],
 
-  "creativeSkills_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae opti placeat a officia nemo veniam officiis repellat odit iusto, dicta facilis quaerat aliquam ut sunt impedit labore atque tempora harum maiores quidem rem deserunt. Voluptatem, saepe rem. Facere, ullam nostrum sed, nihil et minima repellat eum accusantium, in consequatur corporis. Accusamus laboriosam nostrum, consequuntur nulla odio id aut minima.",
+  "creativeSkills_desc": "",
 
   "skills": [
-    { "skillname": "HTML", "perce": "70%" },
-    { "skillname": "CSS", "perce": "40%" },
+    { "skillname": "HTML5", "perce": "80%" },
+    { "skillname": "CSS3", "perce": "75%" },
     { "skillname": "JavaScript", "perce": "70%" },
-    { "skillname": "React", "perce": "80%" },
+    { "skillname": "React", "perce": "70%" },
     { "skillname": "NodeJs", "perce": "50%" },
-    { "skillname": "MongoDB", "perce": "30%" },
-    { "skillname": "Firebase", "perce": "60%" }
+    { "skillname": "MySQL", "perce": "90%" },
+    { "skillname": "C++", "perce": "90%" }
   ],
   "services": [
     {
-      "name": "Web Design / UI",
+      "name": "Web Design / Web Development",
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa totam provident enim ullam quidem expedita, suscipit sit accusantium? "
     },
     {
-      "name": "Backend with Server",
+      "name": "Front-End Development",
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa totam provident enim ullam quidem expedita, suscipit sit accusantium? "
     },
     {
-      "name": "Backend with Server",
+      "name": "UX / UI Design",
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa totam provident enim ullam quidem expedita, suscipit sit accusantium? "
     }
   ]

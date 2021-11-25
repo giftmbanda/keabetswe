@@ -14,7 +14,7 @@ function Services() {
                             console.log(servicenum.name);
                             console.log(servicenum.desc);
                             count = count + 1;
-                            return (<Services_box name={servicenum.name} desc={servicenum.desc} key={count} />)
+                            return (<Services_box name={servicenum.name} key={count} />)
                         })}
                     </div>
                 </div>

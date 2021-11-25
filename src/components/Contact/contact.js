@@ -18,18 +18,18 @@ const Contact = () => {
                         <input
                             required
                             className="contact-input"
-                            placeholder="John Doe"
+                            placeholder="Fullname"
                         />
                         <input
                             required
                             className="contact-input"
-                            placeholder="abc@xyz.com"
+                            placeholder="Email"
                         />
                         <textarea
                             required
                             rows="30"
                             cols="40"
-                            placeholder="Hey there! 👋"
+                            placeholder="Message"
                         ></textarea>
                         <div className="contact-right-btn-wrapper">
                             <button className="contact-right-btn">

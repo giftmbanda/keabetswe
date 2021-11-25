@@ -25,7 +25,6 @@ function App() {
 					<AboutMe />
 					<Services />
 					<Skills />
-					<Projects />
 					<Contact />
 					<Footer />
 				</div>

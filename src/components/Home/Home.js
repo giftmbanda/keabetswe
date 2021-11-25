@@ -12,15 +12,6 @@ const Home = () => {
             <a href={Data["social_links"].github}>
               <i class="fab fa-github"></i>
             </a>
-            <a href={Data["social_links"].youtube}>
-              <i class="fab fa-youtube"></i>
-            </a>
-            <a href={Data["social_links"].facebook}>
-              <i class="fab fa-facebook"></i>
-            </a>
-            <a href={Data["social_links"].twitter}>
-              <i class="fab fa-twitter"></i>
-            </a>
             <a href={Data["social_links"].linkedin}>
               <i class="fab fa-linkedin-in"></i>
             </a>
