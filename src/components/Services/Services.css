@@ -1,0 +1,121 @@
+/*  import google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* custom scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* all similar content styling codes */
+section {
+  padding: 100px 0;
+}
+.max-width {
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+
+.services {
+  font-family: "Nunito", sans-serif;
+}
+
+.services .services-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+section .title {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  font-family: "Ibarra Real Nova", serif;
+}
+.services {
+  color: #fff;
+  background: #111;
+  background: rgba(220, 20, 60, 0.8);
+}
+.services-content .card {
+  width: calc(33% - 20px);
+  background: #222;
+  background: #fff;
+  color: crimson;
+  text-align: center;
+  border-radius: 6px;
+  padding: 50px 25px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.services-content .card .card-title {
+  font-size: 1.5rem;
+}
+.services-content .card:hover {
+  background: crimson;
+  color: #fff;
+  transform: translateY(-20px);
+}
+.services-content .card .box {
+  transition: all 0.5s ease;
+}
+.services-content .card:hover .box {
+  transform: scale(1.1);
+}
+.services-content .card i {
+  font-size: 50px;
+  color: crimson;
+  transition: color 0.3s ease;
+}
+.services-content .card:hover i {
+  color: #fff;
+}
+.services-content .card .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+@media (max-width: 991px) {
+  .max-width {
+    padding: 0 50px;
+  }
+}
+@media (max-width: 947px) {
+  .services .services-content .card {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 690px) {
+  .max-width {
+    padding: 0 23px;
+  }
+
+  .services .services-content .card {
+    width: 100%;
+  }
+}
